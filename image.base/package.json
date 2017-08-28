@@ -1,0 +1,24 @@
+{
+  "name": "a4e-web-site-docpad",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A4E WEB Static content generator with DocPad",
+  "author": "Nikolay Nikolov <nikolay.nikolov@a4everyone.com> (http://www.a4everyone.com)",
+  "dependencies": {
+    "docpad": "~6.79.4",
+    "docpad-plugin-cleanurls": "~2.10.0",
+    "docpad-plugin-coffeekup": "~2.4.0",
+    "docpad-plugin-copy": "~2.1.3",
+    "docpad-plugin-eco": "~2.2.1",
+    "docpad-plugin-frontend": "~2.1.1",
+    "docpad-plugin-moment": "~2.0.2",
+    "docpad-plugin-nodesass": "~2.8.2",
+    "docpad-plugin-partials": "git://github.com/patuf/docpad-plugin-partials.git",
+    "docpad-plugin-sitemap": "~2.4.0",
+    "docpad-plugin-typescript": "git://github.com/a4everyone/docpad-plugin-typescript.git",
+    "docpad-plugin-uglify": "~2.5.0",
+    "moment": "^2.13.0",
+    "typings": "^1.3.2"
+  },
+  "devDependencies": {}
+}

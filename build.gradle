@@ -1,0 +1,11 @@
+apply from: "${System.env.A4E_GRADLE_COMMON}/a4e-service-config.gradle"
+
+project(':image.base') {
+    ext.baseImageApps = [
+    ]
+    apply from: "${System.env.A4E_GRADLE_COMMON}/image-base-build.gradle"
+}
+
+apply from: "${System.env.A4E_GRADLE_COMMON}/image-build.gradle"
+
+// tasks.build.dependsOn ':website:assemble', ':image.base:build'

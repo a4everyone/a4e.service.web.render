@@ -1,0 +1,11 @@
+FROM a4everyone/web.render:base-${project.version}${project.serviceBranchTag}
+
+COPY /docpad.coffee \${A4E_USER_HOME}/work/
+
+WORKDIR \${A4E_USER_HOME}/work/
+USER \${A4E_USER}
+
+<% project.buildinfo.each { key, value -> %>
+ENV BUILDINFO_${key}="${value}" <% } %>
+
+ENTRYPOINT ["./node_modules/docpad/bin/docpad", "watch"]

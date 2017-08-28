@@ -1,0 +1,3 @@
+rootProject.name = 'a4e.service.web.render'
+// include 'user.management'
+include 'image.base'
