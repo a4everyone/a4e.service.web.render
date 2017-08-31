@@ -163,6 +163,7 @@ docpadConfig = {
     # =================================
     # Other Configuration
 
+    watchOptions: preferredMethods: ['watchFile','watch']
     # Detect Encoding
     # Should we attempt to auto detect the encoding of our files?
     # Useful when you are using foreign encoding (e.g., GBK) for your files

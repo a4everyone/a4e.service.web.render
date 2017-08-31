@@ -8,4 +8,4 @@ project(':image.base') {
 
 apply from: "${System.env.A4E_GRADLE_COMMON}/image-build.gradle"
 
-// tasks.build.dependsOn ':website:assemble', ':image.base:build'
+tasks.build.dependsOn ':image.base:build'
