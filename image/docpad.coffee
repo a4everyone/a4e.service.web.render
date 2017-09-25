@@ -8,8 +8,10 @@ extendr = require 'extendr'
 subConfigs = []
 # subConfigs.push(config1)
 
-websiteSrc = process.env.VP_WEB_RENDER_INPUT_SHARED or '/web-render-input'
-websiteOut = process.env.VP_WEB_SITE_SHARED or '/website'
+websiteSrc = path.join(process.env.VP_WEB_RENDER_INPUT_SHARED, process.env.ENV_LEVEL + process.env.ENV_LEVEL_SUFFIX)
+websiteOut = path.join(process.env.VP_WEB_SITE_SHARED, process.env.ENV_LEVEL + process.env.ENV_LEVEL_SUFFIX)
+
+console.log("watching path: " + websiteSrc)
 
 webFolders = fs.readdirSync(websiteSrc).map( (dirName) -> path.join(websiteSrc, dirName) ).filter( (fullPath) -> fs.statSync(fullPath).isDirectory())
 
