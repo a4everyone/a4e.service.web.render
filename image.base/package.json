@@ -13,10 +13,10 @@
     "docpad-plugin-frontend": "~2.1.1",
     "docpad-plugin-moment": "~2.0.2",
     "docpad-plugin-nodesass": "~2.8.2",
-    "docpad-plugin-partials": "git://github.com/patuf/docpad-plugin-partials.git",
+    "docpad-plugin-partials": "~2.12.0",
     "docpad-plugin-sitemap": "~2.4.0",
     "docpad-plugin-typescript": "git://github.com/a4everyone/docpad-plugin-typescript.git",
-    "docpad-plugin-uglify": "~2.5.0",
+    "docpad-plugin-uglifyes": "git://github.com/patuf/docpad-plugin-uglifyes.git",
     "moment": "^2.13.0",
     "typings": "^1.3.2"
   },

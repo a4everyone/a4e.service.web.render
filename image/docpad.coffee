@@ -257,7 +257,7 @@ docpadConfig = {
                     sourceMap: true
                 prod:
                     sourceMap: false
-        uglify:
+        uglifyes:
             environments:
                 development:
                     enabled: false
